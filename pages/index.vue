@@ -6,7 +6,7 @@
             <h1>{{ notes.title | capitalize }} Note</h1>
             <p><br>{{notes.note}}</p>
         </div>
-        </main>
+    </main>
 </template>
 
 <script>
@@ -37,7 +37,42 @@ export default {
 </script>
 
 <style scoped>
-    div {
+    main {
+        display: grid;
         text-align: center;
+        align-items: center;
+    }
+    
+    div {
+        padding: 5%;
+        padding-bottom: 20%;
+        padding-top: 1%;
+    }
+</style>
+
+<style>
+    html,body,#__layout {
+        display: grid;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    body {
+        background-color: lightpink;
+    }
+    
+    h1,p {
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    h1 {
+        color: white;
+    }
+
+    p {
+        color: darkslategray;
     }
 </style>
