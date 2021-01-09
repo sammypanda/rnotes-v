@@ -1,10 +1,10 @@
 <template>
     <main>
-        <h1>Random Note</h1>
         <p v-if="$fetchState.pending">Fetching the notes...</p>
         <p v-else-if="$fetchState.error">Could not find any notes</p>
         <div v-else>
-            <p><b>{{notes.title | capitalize}}</b><br>{{notes.note}}</p>
+            <h1>{{ notes.title | capitalize }} Note</h1>
+            <p><br>{{notes.note}}</p>
         </div>
         </main>
 </template>
@@ -35,3 +35,9 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+    div {
+        text-align: center;
+    }
+</style>
