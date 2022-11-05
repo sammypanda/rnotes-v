@@ -1,5 +1,5 @@
 <h1 align="center">RNotes-V</h1>
-<h6 align="center">rnotes = random notes. Sammy's first attempt at Vue/NuxtJS
+<h6 align="center">rnotes = random notes. Subconscious studying 
 <h1></h1>
 
 <img src="https://user-images.githubusercontent.com/38725335/104083214-9bed9280-5288-11eb-833b-02d78099f7bc.png" alt="Frontend Showing A Random Note - English Banquo is the symbol of righteousness in Shakespeares Macbeth">
